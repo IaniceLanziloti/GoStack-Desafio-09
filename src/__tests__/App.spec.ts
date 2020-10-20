@@ -135,6 +135,8 @@ describe('App', () => {
         ],
       });
 
+    console.log(response.body);
+
     expect(response.body).toEqual(
       expect.objectContaining({
         customer: expect.objectContaining({
